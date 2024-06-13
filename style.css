@@ -28,11 +28,11 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.kanto.event {
+.kanto-event {
     border-left: 5px solid #2980b9;
 }
 
-.kansai.event {
+.kansai-event {
     border-left: 5px solid #8e44ad;
 }
 
@@ -109,6 +109,57 @@ h2 {
 
     .washing-machine,
     .vacuum-cleaner {
+        padding: 15px;
+    }
+}
+
+/* New styles added for job listings */
+.tokyo-job, .osaka-job {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tokyo-job {
+    border-left: 5px solid #2980b9;
+}
+
+.osaka-job {
+    border-left: 5px solid #8e44ad;
+}
+
+.type {
+    color: #2980b9;
+    margin-top: 0;
+}
+
+.company,
+.location {
+    margin: 5px 0;
+}
+
+.info {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.info p {
+    font-size: 14px;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .tokyo-job, .osaka-job {
+        padding: 15px;
+    }
+
+    .info {
         padding: 15px;
     }
 }
